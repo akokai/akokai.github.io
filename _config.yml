@@ -1,0 +1,18 @@
+title: "Akos Kokai"
+permalink: /blog/:year/:month/:day/:title/
+show_drafts: false
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "main"
+      show_title: false
+      defaultdate: "2017-01-01"
+  - 
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "blog"

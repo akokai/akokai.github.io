@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+/* STRUCTURE */
+
+body {
+  background-color: rgb(229, 230, 228);
+  color: rgb(55, 57, 64);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+/* white background */
+.contain {
+  background-color: rgb(251, 251, 251);
+}
+
+/* centered block */
+.inner {
+  margin: auto;
+  max-width: 720px;
+}
+
+/* main content */
+.main {
+  margin: 0;
+  padding: 16px 0 48px 0;
+}
+.main_blog {
+  margin: 0;
+  padding: 16px 0 0 0;
+}
+
+/* footer */
+.footer {
+  margin: 0;
+  padding: 0;
+}
+
+/* TEXT */
+
+p { line-height: 1.55; margin: 16px 0 16px 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+h1 { font-size: 20px; margin: 24px 0 0 0; }
+h2 { font-size: 18px; margin: 24px 0 0 0; color: rgb(125, 128, 132); }
+h3 { font-size: 16px; margin: 22px 0 0 0; }
+h4 { font-size: 15px; margin: 22px 0 0 0; color: rgb(125, 128, 132); }
+h5 { font-size: 14px; margin: 20px 0 0 0; }
+h6 { font-size: 14px; margin: 18px 0 0 0; color: rgb(125, 128, 132); }
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p { margin-top: 8px; }
+h1:first-child, h2:first-child, h3:first-child, h4:first-child,
+h5:first-child, h6:first-child { margin-top: 0; }
+
+blockquote { margin: 0 24px 0 24px; }
+pre, code { font-family: 'Ubuntu Mono', monospace; }
+
+/* text elements intended to flow with paragraphs (e.g. <ul>) */
+.flow { line-height: 1.55; }
+
+/* links */
+a {
+  color: rgb(0, 128, 72);
+  text-decoration: none;
+}
+a:active {
+  color: rgb(34, 175, 113);
+}
+a:hover, a:active {
+  background-color: rgb(239, 251, 245);   /* textual link highlights */
+}
+
+/* navigation bars */
+div.nav_header {
+  margin: 0 0 60px -8px;
+  padding: 36px 0 8px 0;
+}
+div.nav_blog {
+  margin: 0 0 0 -8px;
+  padding-bottom: 16px;
+  min-height: 32px;
+}
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li.nav {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+a.nav {
+  display: block;
+  margin: 0;
+  padding: 8px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+a.nav.menu:link, a.nav.menu:visited {
+  color: rgb(34, 175, 113);
+}
+a.nav.blog:link, a.nav.blog:visited {
+  color: rgb(34, 175, 113);
+}
+a.nav.menu:hover {
+  color: rgb(0, 128, 72);
+  background-color: rgb(229, 230, 228);
+}
+a.nav.menu:active {
+  color: rgb(34, 175, 113);
+  background-color: rgb(229, 230, 228);
+}
+a.nav.plain:link, a.nav.plain:visited, a.nav.plain:hover, a.nav.plain:active {
+  color: rgb(125, 128, 132);
+  background-color: rgb(251, 251, 251);
+}
+
+/* post headings and descriptions */
+a.post_heading:link, a.post_heading:visited {
+  color: rgb(125, 128, 132);
+}
+a.post_heading:hover {
+  color: rgb(34, 175, 113);
+  background-color: rgb(251, 251, 251);
+}
+a.post_heading:active {
+  color: rgb(0, 128, 72);
+  background-color: rgb(251, 251, 251);
+}
+.post_description { margin: 8px 0 8px 0; }
+.quiet { color: rgb(125, 128, 132); }
+
+/* lists, etc. */
+ul, ol { margin: 8px 0 8px 0; }
+li { padding-bottom: 8px; }
+li:last-of-type { padding-bottom: 0; }
+
+/* footnotes */
+a.footnote {
+  font-size: 13px;
+  font-weight: normal;
+}
+div.footnotes { padding-top: 16px; }
+.footnotes ol { margin: 16px 0 16px 0; }
+.footnotes li {
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+}
+.footnotes p {
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 8px;
+}
+
+/* footer content */
+.footer p {
+  margin: 16px 0 16px 0;
+  text-align: center;
+  vertical-align: middle;
+}
+.footer img {
+  margin: 0 20px 0 20px;
+  border-width: 0;
+  vertical-align: middle;
+  opacity: 0.45;
+}
+.footer a:hover, .footer a:active { background-color: initial; }
+
+/* OTHER */
+
+img { border: 0; }
+
+/* figures */
+.fig { text-align: center; }
+.fig img { margin: 16px 0 16px 0; }
+.fig p:first-child { margin: 16px 0 0 0; }
+.fig p:last-child { margin: 0 0 16px 0; }
+
+/* tables */
+table {
+  margin: 8px 0 8px 0;
+  border-collapse: collapse;
+}
+table.box {
+  border: 1px solid rgb(125, 128, 132);
+  margin-bottom: 32px;
+}
+td, th {
+  padding: 12px;
+  vertical-align: top;
+}
+th {
+  font-weight: bold;
+  color: rgb(125, 128, 132);
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 1px solid rgb(125, 128, 132);
+}
+th.rh { /* row headers */
+  text-align: right;
+  border-bottom: none;
+  border-right: 1px solid rgb(125, 128, 132);
+}

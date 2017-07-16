@@ -2,11 +2,13 @@
 title: "Blog"
 ---
 {% for post in site.posts %}
-<h2><a class="post_heading" href="{{ post.url }}">{{ post.title }}</a></h2>
-<p class="post_description"><a class="quiet" href="{{ post.url }}">0{{ post.date | date: "%F" }} &#x25b8;</a>
+<div class="post">
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<p><a class="quiet" href="{{ post.url }}">0{{ post.date | date: "%F" }} &#x25b8;</a>
  {{ post.excerpt |
     remove: '<p>' |
     remove: '</p>' |
     remove: ' [1]' }} <a href="{{ post.url }}">&#x25b8;&#x25b8;</a></p>
 <br>
+</div>
 {% endfor %}

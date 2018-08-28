@@ -3,7 +3,7 @@
 /* STRUCTURE */
 
 body {
-  background-color: rgb(229, 230, 228);
+  background-color: rgb(251, 251, 251);
   color: rgb(55, 57, 64);
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 14px;
@@ -11,13 +11,16 @@ body {
   padding: 0;
 }
 
-/* white background */
 .contain {
-  background-color: rgb(251, 251, 251);
+  position: relative;
+  min-height: 100vh;
 }
 
-/* centered block */
 .inner {
+  /* make space for the footer */
+  box-sizing: border-box;
+  padding-bottom: 64px;
+  /* centered block */
   margin: auto;
   max-width: 720px;
 }
@@ -25,18 +28,21 @@ body {
 /* main content */
 .main {
   margin: 0;
-  padding: 16px 0 48px 0;
+  padding: 16px 0;
 }
-.main_blog {
-  margin: 0;
+.main.blog {
   padding: 16px 0 0 0;
 }
 
-/* footer */
 .footer {
-  margin: 24px 0 24px 0;
-  padding: 0;
-  text-align: center;
+  background-color: rgb(229, 230, 228);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* TEXT */
@@ -76,11 +82,11 @@ a:hover, a:active {
 }
 
 /* navigation bars */
-div.nav_header {
+div.nav.header {
   margin: 0 0 60px -8px;
   padding: 36px 0 8px 0;
 }
-div.nav_blog {
+div.nav.blog {
   margin: 0 0 0 -8px;
   padding-bottom: 16px;
   min-height: 32px;

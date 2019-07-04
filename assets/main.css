@@ -253,6 +253,10 @@ img {
 .fig p:last-child {
   margin: 0 0 16px 0;
 }
+.fig a:hover,
+.fig a:active {
+  background-color: initial;
+}
 
 /* tables */
 table {

@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono");
-
 /* STRUCTURE */
 
 body {
-  background-color: rgb(251, 251, 251);
+  background-color: rgb(229, 230, 228);
   color: rgb(55, 57, 64);
   font-family: "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 14px;
@@ -12,6 +10,7 @@ body {
 }
 
 .contain {
+  background-color: rgb(251, 251, 251);
   position: relative;
   min-height: 100vh;
 }
@@ -47,38 +46,85 @@ body {
 
 /* TEXT */
 
-p { line-height: 1.618; margin: 0 0 16px 0; }
+p {
+  line-height: 1.618;
+  margin: 0 0 16px 0;
+}
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
 }
-h1 { font-size: 20px; margin: 24px 0 0 0; }
-h2 { font-size: 18px; margin: 24px 0 0 0; color: rgb(125, 128, 132); }
-h3 { font-size: 16px; margin: 22px 0 0 0; }
-h4 { font-size: 15px; margin: 22px 0 0 0; color: rgb(125, 128, 132); }
-h5 { font-size: 14px; margin: 20px 0 0 0; }
-h6 { font-size: 14px; margin: 18px 0 0 0; color: rgb(125, 128, 132); }
+h1 {
+  font-size: 20px;
+  margin: 24px 0 0 0;
+}
+h2 {
+  font-size: 18px;
+  margin: 24px 0 0 0;
+  color: rgb(125, 128, 132);
+}
+h3 {
+  font-size: 16px;
+  margin: 22px 0 0 0;
+}
+h4 {
+  font-size: 15px;
+  margin: 22px 0 0 0;
+  color: rgb(125, 128, 132);
+}
+h5 {
+  font-size: 14px;
+  margin: 20px 0 0 0;
+}
+h6 {
+  font-size: 14px;
+  margin: 18px 0 0 0;
+  color: rgb(125, 128, 132);
+}
 
-h1+p, h2+p, h3+p, h4+p, h5+p, h6+p { margin-top: 4px; }
-h1:first-child, h2:first-child, h3:first-child, h4:first-child,
-h5:first-child, h6:first-child { margin-top: 0; }
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+  margin-top: 4px;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
 
-blockquote { margin: 0 24px 0 24px; }
-pre, code { font-family: "Ubuntu Mono", monospace; }
+blockquote {
+  margin: 0 24px 16px 24px;
+}
 
 /* text elements intended to flow with paragraphs (e.g. <ul>) */
-.flow { line-height: 1.618; }
+.flow {
+  line-height: 1.618;
+}
 
 /* links */
 a {
   color: rgb(0, 128, 72);
   text-decoration: none;
+  transition: all 0.1s ease-in-out;
 }
 a:active {
   color: rgb(34, 175, 113);
 }
-a:hover, a:active {
-  background-color: rgb(239, 251, 245);   /* textual link highlights */
+a:hover,
+a:active {
+  background-color: rgb(239, 251, 245); /* textual link highlights */
 }
 
 /* navigation bars */
@@ -128,7 +174,8 @@ a.nav.plain {
 }
 
 /* post headings and descriptions */
-.post h2 a:link, .post h2 a:visited {
+.post h2 a:link,
+.post h2 a:visited {
   color: rgb(125, 128, 132);
 }
 .post h2 a:hover {
@@ -139,19 +186,32 @@ a.nav.plain {
   color: rgb(0, 128, 72);
   background-color: rgb(251, 251, 251);
 }
-.quiet { color: rgb(125, 128, 132); }
+.quiet {
+  color: rgb(125, 128, 132);
+}
 
 /* lists, etc. */
-ul, ol { margin: 8px 0 8px 0; }
-li { padding-bottom: 8px; }
-li:last-of-type { padding-bottom: 0; }
+ul,
+ol {
+  margin: 8px 0 8px 0;
+}
+li {
+  padding-bottom: 8px;
+}
+li:last-of-type {
+  padding-bottom: 0;
+}
 
 /* footnotes */
 a.footnote {
   font-size: 13px;
 }
-div.footnotes { padding-top: 16px; }
-.footnotes ol { margin: 16px 0 16px 0; }
+div.footnotes {
+  padding-top: 16px;
+}
+.footnotes ol {
+  margin: 16px 0 16px 0;
+}
 .footnotes li {
   line-height: 1.25;
   margin: 0;
@@ -169,17 +229,30 @@ div.footnotes { padding-top: 16px; }
 .footer img {
   opacity: 0.45;
 }
-.footer a:hover, .footer a:active { background-color: initial; }
+.footer a:hover,
+.footer a:active {
+  background-color: initial;
+}
 
 /* OTHER */
 
-img { border: 0; }
+img {
+  border: 0;
+}
 
 /* figures */
-.fig { text-align: center; }
-.fig img { margin: 16px 0 16px 0; }
-.fig p:first-child { margin: 16px 0 0 0; }
-.fig p:last-child { margin: 0 0 16px 0; }
+.fig {
+  text-align: center;
+}
+.fig img {
+  margin: 16px 0 16px 0;
+}
+.fig p:first-child {
+  margin: 16px 0 0 0;
+}
+.fig p:last-child {
+  margin: 0 0 16px 0;
+}
 
 /* tables */
 table {
@@ -190,7 +263,8 @@ table.box {
   border: 1px solid rgb(125, 128, 132);
   margin-bottom: 32px;
 }
-td, th {
+td,
+th {
   padding: 12px;
   vertical-align: top;
 }
@@ -201,7 +275,8 @@ th {
   vertical-align: middle;
   border-bottom: 1px solid rgb(125, 128, 132);
 }
-th.rh { /* row headers */
+th.rh {
+  /* row headers */
   text-align: right;
   border-bottom: none;
   border-right: 1px solid rgb(125, 128, 132);

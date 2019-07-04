@@ -1,5 +1,5 @@
 title: "Akos Kokai"
-permalink: /blog/:year/:month/:day/:title/
+permalink: /posts/:year/:month/:day/:title/
 show_drafts: false
 defaults:
   - 

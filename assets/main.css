@@ -16,12 +16,14 @@ body {
 }
 
 .inner {
-  /* make space for the footer */
-  box-sizing: border-box;
-  padding-bottom: 64px;
-  /* centered block */
+  padding: 36px 5% 64px 5%;
   margin: auto;
-  max-width: 720px;
+}
+
+@media (min-width: 720px) {
+  .inner {
+    width: 80%;
+  }
 }
 
 /* main content */
@@ -129,8 +131,7 @@ a:active {
 
 /* navigation bars */
 div.nav.header {
-  margin: 0 0 60px -8px;
-  padding: 36px 0 8px 0;
+  margin-bottom: 60px;
 }
 div.nav.blog {
   margin: 0 0 0 -8px;
@@ -171,6 +172,13 @@ a.nav.menu:active {
 a.nav.plain {
   color: rgb(125, 128, 132);
   background-color: rgb(251, 251, 251);
+  padding-left: 0;
+}
+
+@media (max-width: 400px) {
+  .nav {
+    font-size: 11px;
+  }
 }
 
 /* post headings and descriptions */
@@ -245,7 +253,9 @@ img {
   text-align: center;
 }
 .fig img {
+  /* defaults for images */
   margin: 16px 0 16px 0;
+  width: 100%;
 }
 .fig p:first-child {
   margin: 16px 0 0 0;

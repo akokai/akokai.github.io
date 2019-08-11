@@ -4,9 +4,9 @@
 <link rel="schema.DC" href="https://purl.org/dc/elements/1.1/">
 <meta name="DC.title" content="{{ page.title }}">
 <meta name="DC.creator" content="Akos Kokai">
-<meta name="DC.date" content="{% if page.date %}{{ page.date | date: '%F' }}{% else %}{{ page.defaultdate | date: '%F' }}{% endif %}">
+<meta name="DC.date" content="{% if page.date %}{{ page.date | date: '%F' }}{% else %}{{ site.time | date: '%F' }}{% endif %}">
 <meta name="DC.type" content="Text">
 <meta name="DC.format" content="text/html">
 <meta name="DC.language" content="en">
-<meta name="DC.rights" content="Copyright {% if page.date %}{{ page.date | date: '%Y' }}{% else %}{{ page.defaultdate | date: '%Y' }}{% endif %} Akos Kokai. Some rights reserved.">
+<meta name="DC.rights" content="Copyright {% if page.date %}{{ page.date | date: '%Y' }}{% else %}{{ site.time | date: '%Y' }}{% endif %} Akos Kokai. Some rights reserved.">
 <meta name="DC.license" content="Creative Commons Attribution 4.0 International License">

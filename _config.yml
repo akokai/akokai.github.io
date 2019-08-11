@@ -9,7 +9,6 @@ defaults:
     values:
       layout: "main"
       show_title: false
-      defaultdate: "2017-01-01"
   - 
     scope:
       path: ""

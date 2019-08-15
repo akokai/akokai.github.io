@@ -2,7 +2,7 @@
 
 body {
   background-color: rgb(229, 230, 228);
-  color: rgb(55, 57, 64);
+  color: rgb(52, 55, 65);
   font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "FreeSans", sans-serif;
   font-size: 14px;
   margin: 0;
@@ -68,7 +68,7 @@ h1 {
 h2 {
   font-size: 18px;
   margin: 24px 0 0 0;
-  color: rgb(125, 128, 132);
+  color: rgb(121, 125, 130);
 }
 h3 {
   font-size: 16px;
@@ -77,7 +77,7 @@ h3 {
 h4 {
   font-size: 15px;
   margin: 22px 0 0 0;
-  color: rgb(125, 128, 132);
+  color: rgb(121, 125, 130);
 }
 h5 {
   font-size: 14px;
@@ -86,7 +86,7 @@ h5 {
 h6 {
   font-size: 14px;
   margin: 18px 0 0 0;
-  color: rgb(125, 128, 132);
+  color: rgb(121, 125, 130);
 }
 
 h1 + p,
@@ -170,7 +170,7 @@ a.nav.menu:active {
   background-color: rgb(229, 230, 228);
 }
 a.nav.plain {
-  color: rgb(125, 128, 132);
+  color: rgb(121, 125, 130);
   background-color: rgb(251, 251, 251);
   padding-left: 0;
 }
@@ -184,7 +184,7 @@ a.nav.plain {
 /* post headings and descriptions */
 .post h2 a:link,
 .post h2 a:visited {
-  color: rgb(125, 128, 132);
+  color: rgb(121, 125, 130);
 }
 .post h2 a:hover {
   color: rgb(34, 175, 113);
@@ -195,7 +195,7 @@ a.nav.plain {
   background-color: rgb(251, 251, 251);
 }
 .quiet {
-  color: rgb(125, 128, 132);
+  color: rgb(121, 125, 130);
 }
 
 /* lists, etc. */
@@ -274,7 +274,7 @@ table {
   border-collapse: collapse;
 }
 table.box {
-  border: 1px solid rgb(125, 128, 132);
+  border: 1px solid rgb(121, 125, 130);
   margin-bottom: 32px;
 }
 td,
@@ -284,14 +284,14 @@ th {
 }
 th {
   font-weight: bold;
-  color: rgb(125, 128, 132);
+  color: rgb(121, 125, 130);
   text-align: left;
   vertical-align: middle;
-  border-bottom: 1px solid rgb(125, 128, 132);
+  border-bottom: 1px solid rgb(121, 125, 130);
 }
 th.rh {
   /* row headers */
   text-align: right;
   border-bottom: none;
-  border-right: 1px solid rgb(125, 128, 132);
+  border-right: 1px solid rgb(121, 125, 130);
 }

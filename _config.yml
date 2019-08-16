@@ -1,6 +1,6 @@
 title: "Akos Kokai"
 permalink: /posts/:year/:month/:day/:title/
-show_drafts: false
+show_drafts: true
 defaults:
   - 
     scope:

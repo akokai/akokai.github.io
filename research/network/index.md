@@ -40,13 +40,13 @@ The map currently includes some of the following kinds of knowledge resources.
 
 Links represent flows of knowledge that are variable and unique to each link (click for details). They can be generalized to the following kinds of relationships, expressed as verbs:
 
-- **Includes by reference:** For example, methods and policies invoke or require the use of other resources
-- **Operationalizes or performs:** Such as when a software tool operationalizes a chemical screening protocol
-- **Provides:** Resources may produce new knowledge or aggregate knowledge of another kind
+- **Includes by reference:** One resource invokes, builds on, or requires the use of another
+- **Operationalizes:** An assessor applies a method, a software tool implements a protocol, etc.
+- **Provides:** One resource produces, aggregates, or transmits (by API, etc.) knowledge of another kind
 
 Rather than classify all links with one of these generic verbs, I’ve decided to include a more complete textual description of what each link means, with references, in the information card.
 
-I also don't show the direction of links (i.e. A → B) in the graph. The links can be considered directed, but I don't think this is either clear enough or important enough to display all at once. Instead, the description of each link tells you what you need to know about its directionality.
+I don't show the direction of links (i.e. A → B) in the graph. The links can be considered directed, but I don't think this is either clear enough or important enough to display all at once. Instead, the description of each link tells you what you need to know about its directionality.
 
 ### What's left out?
 

@@ -52,6 +52,8 @@ I don't show the direction of links (i.e. A → B) in the graph. The links can b
 
 Lists of chemicals (such as regulatory and hazard classification lists), and the relationships between these lists, are not shown in this map. While they are included by reference in many CHA resources, these lists are numerous, and mapping the relationships between them could be a whole other project.
 
+Knowledge resources internal to individual companies are not included. Several companies have developed their own assessment programs or methods based on other resources in this map. I'm focusing on *shared* resources, or those that were developed with a broader community in mind.
+
 ### Feedback & development
 
 I welcome feedback and input on this map. The data and source code, along with ways to give feedback, are [available on GitHub](https://github.com/akokai/safer-chemicals-network).

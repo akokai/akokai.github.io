@@ -8,7 +8,6 @@ defaults:
       type: "pages"
     values:
       layout: "main"
-      show_title: false
   - 
     scope:
       path: ""

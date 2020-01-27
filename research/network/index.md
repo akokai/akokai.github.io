@@ -1,7 +1,8 @@
 ---
 title: "Mapping the safer chemical substitution knowledge network"
-show_title: true
 ---
+
+<h1>{{ page.title }}</h1>
 
 This is a _partial and incomplete_ graph of knowledge resources for safer chemical substitution and how they're connected. It's meant to show that many interrelated resources support the practices of chemical hazard assessment and alternatives assessment, and that these resources build on each another. <a href="#about">See below</a>.
 

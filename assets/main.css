@@ -3,7 +3,8 @@
 body {
   background-color: rgb(229, 230, 228);
   color: rgb(52, 55, 65);
-  font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "FreeSans", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "FreeSans",
+    sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -52,6 +53,13 @@ p {
   line-height: 1.618;
 }
 
+.gray {
+  color: rgb(121, 125, 130);
+}
+.black {
+  color: rgb(52, 55, 65);
+}
+
 h1,
 h2,
 h3,
@@ -78,22 +86,11 @@ h4 {
   margin: 22px 0 0 0;
   color: rgb(121, 125, 130);
 }
-h5 {
-  font-size: 14px;
-  margin: 20px 0 0 0;
-}
-h6 {
-  font-size: 14px;
-  margin: 18px 0 0 0;
-  color: rgb(121, 125, 130);
-}
 
 h1 + p,
 h2 + p,
 h3 + p,
-h4 + p,
-h5 + p,
-h6 + p {
+h4 + p {
   margin-top: 4px;
 }
 h1:first-child,
@@ -193,9 +190,6 @@ a.nav.plain {
   color: rgb(0, 128, 72);
   background-color: rgb(251, 251, 251);
 }
-.quiet {
-  color: rgb(121, 125, 130);
-}
 
 /* lists, etc. */
 ul,
@@ -207,6 +201,17 @@ li {
 }
 li:last-of-type {
   padding-bottom: 0;
+}
+
+/* testimonials */
+.testimonial.author {
+  font-weight: bold;
+}
+.testimonial.author span {
+  font-weight: initial;
+}
+.testimonial.quote {
+  font-style: italic;
 }
 
 /* footnotes */

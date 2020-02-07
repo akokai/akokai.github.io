@@ -204,13 +204,16 @@ li:last-of-type {
 }
 
 /* testimonials */
-.testimonial.author {
+.testimonial {
+  margin-bottom: 32px;
+}
+.testimonial .author {
   font-weight: bold;
 }
-.testimonial.author span {
+.testimonial .author span {
   font-weight: initial;
 }
-.testimonial.quote {
+.testimonial .quote {
   font-style: italic;
 }
 

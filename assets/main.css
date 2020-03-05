@@ -113,16 +113,16 @@ blockquote {
 
 /* links */
 a {
-  color: rgb(0, 128, 72);
+  color: rgb(255, 103, 32);
   text-decoration: none;
   transition: all 0.1s ease-in-out;
 }
 a:active {
-  color: rgb(34, 175, 113);
+  color: rgb(255, 127, 64);
 }
 a:hover,
 a:active {
-  background-color: rgb(239, 251, 245); /* textual link highlights */
+  background-color: rgba(229, 230, 228, 0.5);
 }
 
 /* navigation bars */
@@ -152,17 +152,17 @@ a.nav {
   text-align: center;
 }
 a.nav.menu {
-  color: rgb(34, 175, 113);
+  color: rgb(255, 127, 64);
 }
 a.nav.blog {
-  color: rgb(34, 175, 113);
+  color: rgb(255, 127, 64);
 }
 a.nav.menu:hover {
-  color: rgb(0, 128, 72);
+  color: rgb(255, 103, 32);
   background-color: rgb(229, 230, 228);
 }
 a.nav.menu:active {
-  color: rgb(34, 175, 113);
+  color: rgb(255, 127, 64);
   background-color: rgb(229, 230, 228);
 }
 a.nav.plain {
@@ -183,11 +183,11 @@ a.nav.plain {
   color: rgb(121, 125, 130);
 }
 .post h2 a:hover {
-  color: rgb(34, 175, 113);
+  color: rgb(255, 127, 64);
   background-color: rgb(251, 251, 251);
 }
 .post h2 a:active {
-  color: rgb(0, 128, 72);
+  color: rgb(255, 103, 32);
   background-color: rgb(251, 251, 251);
 }
 

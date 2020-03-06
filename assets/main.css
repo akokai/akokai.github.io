@@ -5,7 +5,7 @@ body {
   color: rgb(52, 55, 65);
   font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "FreeSans",
     sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
@@ -63,27 +63,25 @@ p {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
   font-weight: bold;
 }
 h1 {
-  font-size: 20px;
-  margin: 24px 0 0 0;
+  font-size: 2rem;
+  margin: 1.5rem 0 0.5rem 0;
 }
 h2 {
-  font-size: 18px;
-  margin: 24px 0 0 0;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.5rem 0;
   color: rgb(121, 125, 130);
 }
 h3 {
-  font-size: 16px;
-  margin: 22px 0 0 0;
+  font-size: 1.25rem;
+  margin: 1.25rem 0 0.5rem 0;
 }
 h4 {
-  font-size: 15px;
-  margin: 22px 0 0 0;
+  font-size: 1rem;
+  margin: 1rem 0 0.5rem 0;
   color: rgb(121, 125, 130);
 }
 
@@ -91,19 +89,17 @@ h1 + p,
 h2 + p,
 h3 + p,
 h4 + p {
-  margin-top: 4px;
+  margin-top: 0.5rem;
 }
 h1:first-child,
 h2:first-child,
 h3:first-child,
-h4:first-child,
-h5:first-child,
-h6:first-child {
+h4:first-child {
   margin-top: 0;
 }
 
 blockquote {
-  margin: 0 24px 16px 24px;
+  margin: 0 24px 1rem 24px;
 }
 
 /* text elements intended to flow with paragraphs (e.g. <ul>) */
@@ -149,31 +145,31 @@ a.nav {
   margin: 0;
   padding: 8px;
   font-weight: bolder;
-  text-align: center;
-}
-a.nav.menu {
   color: rgb(255, 127, 64);
 }
-a.nav.blog {
-  color: rgb(255, 127, 64);
-}
-a.nav.menu:hover {
+a.nav:hover {
   color: rgb(255, 103, 32);
   background-color: rgb(229, 230, 228);
 }
-a.nav.menu:active {
+a.nav:active {
   color: rgb(255, 127, 64);
   background-color: rgb(229, 230, 228);
 }
-a.nav.plain {
+a.nav.home {
+  padding-left: 0;
   color: rgb(121, 125, 130);
   background-color: rgb(251, 251, 251);
-  padding-left: 0;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .nav {
-    font-size: 11px;
+    font-size: small;
+  }
+  .header > ul > li:first-of-type {
+    float: none;
+  }
+  li.nav.menu-begin {
+    margin-left: -8px;
   }
 }
 
@@ -194,10 +190,10 @@ a.nav.plain {
 /* lists, etc. */
 ul,
 ol {
-  margin: 8px 0 8px 0;
+  margin: 0.5em 0 0.5em 0;
 }
 li {
-  padding-bottom: 8px;
+  padding-bottom: 0.5em;
 }
 li:last-of-type {
   padding-bottom: 0;
@@ -205,7 +201,7 @@ li:last-of-type {
 
 /* testimonials */
 .testimonial {
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 .testimonial .author {
   font-weight: bold;
@@ -219,13 +215,13 @@ li:last-of-type {
 
 /* footnotes */
 a.footnote {
-  font-size: 13px;
+  font-size: small;
 }
 div.footnotes {
-  padding-top: 16px;
+  padding-top: 1.5rem;
 }
 .footnotes ol {
-  margin: 16px 0 16px 0;
+  margin: 1rem 0 1rem 0;
 }
 .footnotes li {
   line-height: 1.25;
@@ -237,7 +233,7 @@ div.footnotes {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
-  padding-bottom: 8px;
+  padding-bottom: 0.5em;
 }
 
 /* footer content */
@@ -261,14 +257,14 @@ img {
 }
 .fig img {
   /* defaults for images */
-  margin: 16px 0 16px 0;
+  margin: 1rem 0;
   width: 100%;
 }
 .fig p:first-child {
-  margin: 16px 0 0 0;
+  margin: 1rem 0 0 0;
 }
 .fig p:last-child {
-  margin: 0 0 16px 0;
+  margin: 0 0 1rem 0;
 }
 .fig a:hover,
 .fig a:active {
@@ -282,11 +278,11 @@ table {
 }
 table.box {
   border: 1px solid rgb(121, 125, 130);
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 td,
 th {
-  padding: 12px;
+  padding: 0.75rem;
   vertical-align: top;
 }
 th {

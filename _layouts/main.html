@@ -2,12 +2,12 @@
 <html>
 <head>
 {% include meta.html %}
-<title>{%if page.title %} {{ page.title }} | {{ site.title }} {% else %} {{ site.title }} {% endif %}</title>
+<title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 </head>
 
 <body>
 <div class="contain">
-<div class="inner">
+<div class="{% if page.landing %}inner landing{% else %}inner{% endif %}">
 {% include header.html %}
 <div class="main">
 {{ content }}

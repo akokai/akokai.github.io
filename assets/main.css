@@ -5,7 +5,6 @@ body {
   color: rgb(52, 55, 65);
   font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "FreeSans",
     sans-serif;
-  font-size: 16px;
   margin: 0;
   padding: 0;
 }
@@ -162,13 +161,20 @@ a.nav.home {
 }
 
 @media (max-width: 480px) {
-  .nav {
+  .header {
     font-size: small;
+  }
+  .landing > .header {
+    font-size: initial;
   }
   .header > ul > li:first-of-type {
     float: none;
   }
-  li.nav.menu-begin {
+  li.item.begin {
+    margin-left: -8px;
+  }
+  .landing > .header > ul > li.item {
+    float: none;
     margin-left: -8px;
   }
 }

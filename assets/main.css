@@ -192,6 +192,12 @@ a.nav.home {
   color: rgb(255, 103, 32);
   background-color: rgb(251, 251, 251);
 }
+.archived {
+  background-color: rgb(121, 125, 130);
+  color: rgb(251, 251, 251);
+  padding: 0 4px;
+  border-radius: 4px;
+}
 
 /* lists, etc. */
 ul,

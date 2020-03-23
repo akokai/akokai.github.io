@@ -14,3 +14,4 @@ defaults:
       type: "posts"
     values:
       layout: "blog"
+      archived: false

@@ -1,7 +1,7 @@
 ---
 title: "Exploring research subject areas"
+archived: true
 ---
-
 
 Many academic journals describe the articles they publish using topical keywords, which authors can specify ad-lib, or select from a controlled vocabulary provided by the publisher. [PLOS](http://www.plos.org/) stands out in the sophistication of its approach: articles are associated with [subject areas](http://www.plosone.org/static/help#subjectAreas) from a thesaurus of over 10000 terms, with specific associations established by machine-aided indexing. Probably to avoid overwhelming readers, the PLOS website's [subject area list](http://www.plosone.org/taxonomy) only shows the first two tiers of a taxonomy that goes up to ten tiers deep. Now, you can explore the PLOS subject areas in all their depth and beauty...
 

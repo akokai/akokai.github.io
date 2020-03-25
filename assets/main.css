@@ -226,13 +226,10 @@ li:last-of-type {
 }
 
 /* footnotes */
-a.footnote {
-  font-size: small;
-}
 div.footnotes {
   padding-top: 1.5rem;
 }
-.footnotes ol {
+.footnotes ol, .footnotes p {
   margin: 1rem 0 1rem 0;
 }
 .footnotes li {
@@ -240,7 +237,7 @@ div.footnotes {
   margin: 0;
   padding: 0;
 }
-.footnotes p {
+.footnotes li > p {
   line-height: 1.25;
   margin-top: 0;
   margin-bottom: 0;

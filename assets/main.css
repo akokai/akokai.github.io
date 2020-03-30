@@ -229,7 +229,8 @@ li:last-of-type {
 div.footnotes {
   padding-top: 1.5rem;
 }
-.footnotes ol, .footnotes p {
+.footnotes ol,
+.footnotes p {
   margin: 1rem 0 1rem 0;
 }
 .footnotes li {
@@ -258,6 +259,18 @@ div.footnotes {
 
 img {
   border: 0;
+}
+
+.about-pic {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.about-pic img {
+  width: 6rem;
+  height: 6rem;
+  max-width: 480px;
+  margin-right: 1rem;
 }
 
 /* figures */

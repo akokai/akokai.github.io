@@ -12,7 +12,7 @@ Click a node or link to see details about it. Group and arrange the network in d
 
 <h2 id="about">About this graph</h2>
 
-My [research project]({{ site.baseurl }}/research) is about shared knowledge resources for chemical hazard assessment and [alternatives assessment](https://en.wikipedia.org/wiki/Alternatives_assessment). The goal of this data visualization is to illustrate a network of relationships between individual knowledge resources, making up a broader *knowledge commons*.
+This is part of a [research project]({{ site.baseurl }}/research/#knowledge-systems) about shared knowledge resources for chemical hazard assessment and [alternatives assessment](https://en.wikipedia.org/wiki/Alternatives_assessment). The goal of this data visualization is to illustrate a network of relationships between individual knowledge resources, making up a broader *knowledge commons*.
 
 The goal is to be selective, not comprehensive. I've focused on assessment methods—particularly the [GreenScreen for Safer Chemicals](https://www.greenscreenchemicals.org)—and the resources that are linked to them. The map is essentially incomplete, and in this description I'll try to explain its boundaries. This may evolve over time.
 

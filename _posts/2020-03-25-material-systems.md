@@ -31,7 +31,7 @@ By using these tools, designers can make technical demands on products, material
 
 The point is, to make sustainable design changes within existing technological and material systems---if those systems can even be intentionally changed at all---designers and their collaborators need to mobilize an ever wider variety of resources. Science, tools, standards, policies, market mechanisms, and so on. One way to see this is the field of design practice expanding: like how the chemistry of building materials, which used to be opaque and off-limits to architects and interior designers, is now becoming part of the territory in which they work (at least for some). But the participation of scientists, NGOs, and others also suggests that the boundaries of "design" are fuzzy. Whose intention and agency is it, exactly, that creates green buildings or safer chemicals?
 
-I tell this story to show a picture of "sustainable design" as a complex reality, not just an idea. This emerged from my research as a fragment that I find particularly interesting... and also incomplete. Comments are welcome. Especially from designers.
+I tell this story to show a picture of "sustainable design" as a complex reality, not just an idea. This emerged from my [research]({{ site.baseurl }}/research/#knowledge-systems) as a fragment that I find particularly interesting... and also incomplete. Comments are welcome. Especially from designers.
 
 <div class="footnotes">
 <hr>

@@ -267,10 +267,8 @@ img {
   margin: 1rem 0;
 }
 .about-pic img {
-  width: 6rem;
-  height: 6rem;
-  max-width: 480px;
-  max-height: 480px;
+  width: 96px;
+  height: 96px;
   margin-right: 1rem;
 }
 

@@ -269,6 +269,7 @@ img {
 .about-pic img {
   width: 96px;
   height: 96px;
+  flex-shrink: 0;
 }
 .about-pic p {
   margin-left: 1rem;

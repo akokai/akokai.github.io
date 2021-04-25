@@ -15,3 +15,4 @@ defaults:
     values:
       layout: "blog"
       archived: false
+exclude: ["consulting"]
